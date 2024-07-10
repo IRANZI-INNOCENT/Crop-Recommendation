@@ -62,13 +62,13 @@ def save_models(X_train, y_train):
 # Function to load models
 def load_models(model_name):
     if model_name == 'logistic_regression':
-        return joblib.load('A:\\APPS\\recommendation\\logistic_regression_model.pkl')
+        return joblib.load('logistic_regression_model.pkl')
     elif model_name == 'decision_tree':
-        return joblib.load('A:\\APPS\\recommendation\\decision_tree_model.pkl')
+        return joblib.load('decision_tree_model.pkl')
     elif model_name == 'support_vector':
-        return joblib.load('A:\\APPS\\recommendation\\support_vector_model.pkl')
+        return joblib.load('support_vector_model.pkl')
     elif model_name == 'random_forest':
-        return joblib.load('A:\\APPS\\recommendation\\random_forest_model.pkl')
+        return joblib.load('random_forest_model.pkl')
     else:
         raise ValueError("Invalid model choice. Please choose from 'logistic_regression', 'decision_tree', 'support_vector', 'random_forest'.")
 
