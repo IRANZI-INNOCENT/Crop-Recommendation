@@ -74,4 +74,4 @@ if st.button('Recommend Crop'):
         st.error(str(e))
 
 st.text('')
-st.markdown('Developed By: IRANZI INNOCENT vs MARGRET AMONDI | ` Code:` [GitHub](https://github.com/IRANZI-INNOCENT/Data-Sciennce)')
+st.markdown('<p style="font-size:24px;">Developed By: IRANZI INNOCENT</p>', unsafe_allow_html=True)
