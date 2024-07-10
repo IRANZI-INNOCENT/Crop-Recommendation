@@ -14,11 +14,11 @@ default_values = {
 }
 
 # Load dataset
-X, y = load_dataset("A:\\ALIGORITHMS TRACKER\\REGRESSION\\Croprec_data.csv")
+#X, y = load_dataset("A:\\ALIGORITHMS TRACKER\\REGRESSION\\Croprec_data.csv")
 
 # Split data into training and testing sets
-from sklearn.model_selection import train_test_split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
+#from sklearn.model_selection import train_test_split
+#X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, random_state=42)
 
 # Top bar for the system title
 st.markdown("<h1 style='text-align: center; color: #4CAF50;'>Crop Recommendation</h1>", unsafe_allow_html=True)
