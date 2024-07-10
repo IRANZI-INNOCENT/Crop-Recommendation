@@ -74,4 +74,4 @@ if st.button('Recommend Crop'):
         st.error(str(e))
 
 st.text('')
-st.markdown('<p style="font-size:14px;">Developed By: IRANZI INNOCENT</p>', unsafe_allow_html=True)
+st.markdown('<p style="font-size:20px;">Developed By: IRANZI INNOCENT</p>', unsafe_allow_html=True)
