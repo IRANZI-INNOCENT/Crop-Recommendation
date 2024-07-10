@@ -72,3 +72,6 @@ if st.button('Recommend Crop'):
             st.warning("Sorry, we are not able to recommend a proper crop for this environment.")
     except ValueError as e:
         st.error(str(e))
+
+st.text('')
+st.markdown('Developed By: IRANZI INNOCENT vs MARGRET AMONDI | ` Code:` [GitHub](https://github.com/IRANZI-INNOCENT/Data-Sciennce)')
